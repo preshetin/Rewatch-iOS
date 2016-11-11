@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		2E2E4B0E1DD5CD1D0060042E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2E4B0D1DD5CD1D0060042E /* AppDelegate.swift */; };
-		2E2E4B101DD5CD1D0060042E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2E4B0F1DD5CD1D0060042E /* FirstViewController.swift */; };
-		2E2E4B121DD5CD1D0060042E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2E4B111DD5CD1D0060042E /* SecondViewController.swift */; };
+		2E2E4B101DD5CD1D0060042E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2E4B0F1DD5CD1D0060042E /* HomeViewController.swift */; };
 		2E2E4B151DD5CD1D0060042E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E2E4B131DD5CD1D0060042E /* Main.storyboard */; };
 		2E2E4B171DD5CD1D0060042E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E2E4B161DD5CD1D0060042E /* Assets.xcassets */; };
 		2E2E4B1A1DD5CD1D0060042E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E2E4B181DD5CD1D0060042E /* LaunchScreen.storyboard */; };
+		2E2E4B221DD5D1420060042E /* MoviesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2E4B211DD5D1420060042E /* MoviesListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E2E4B0A1DD5CD1D0060042E /* Rewatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rewatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E2E4B0D1DD5CD1D0060042E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2E2E4B0F1DD5CD1D0060042E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		2E2E4B111DD5CD1D0060042E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2E2E4B0F1DD5CD1D0060042E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2E2E4B141DD5CD1D0060042E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E2E4B161DD5CD1D0060042E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E2E4B191DD5CD1D0060042E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E2E4B1B1DD5CD1D0060042E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E2E4B211DD5D1420060042E /* MoviesListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				2E2E4B0D1DD5CD1D0060042E /* AppDelegate.swift */,
-				2E2E4B0F1DD5CD1D0060042E /* FirstViewController.swift */,
-				2E2E4B111DD5CD1D0060042E /* SecondViewController.swift */,
+				2E2E4B211DD5D1420060042E /* MoviesListTableViewController.swift */,
+				2E2E4B0F1DD5CD1D0060042E /* HomeViewController.swift */,
 				2E2E4B131DD5CD1D0060042E /* Main.storyboard */,
 				2E2E4B161DD5CD1D0060042E /* Assets.xcassets */,
 				2E2E4B181DD5CD1D0060042E /* LaunchScreen.storyboard */,
@@ -140,9 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E2E4B121DD5CD1D0060042E /* SecondViewController.swift in Sources */,
 				2E2E4B0E1DD5CD1D0060042E /* AppDelegate.swift in Sources */,
-				2E2E4B101DD5CD1D0060042E /* FirstViewController.swift in Sources */,
+				2E2E4B221DD5D1420060042E /* MoviesListTableViewController.swift in Sources */,
+				2E2E4B101DD5CD1D0060042E /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
