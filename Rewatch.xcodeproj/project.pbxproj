@@ -13,6 +13,8 @@
 		2E2E4B171DD5CD1D0060042E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E2E4B161DD5CD1D0060042E /* Assets.xcassets */; };
 		2E2E4B1A1DD5CD1D0060042E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E2E4B181DD5CD1D0060042E /* LaunchScreen.storyboard */; };
 		2E2E4B221DD5D1420060042E /* MoviesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2E4B211DD5D1420060042E /* MoviesListTableViewController.swift */; };
+		2E2E4B471DD5F9FC0060042E /* AddMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2E4B461DD5F9FC0060042E /* AddMovieViewController.swift */; };
+		2E42E9D61DD6158F00FDAE94 /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E42E9D51DD6158F00FDAE94 /* DismissSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2E2E4B191DD5CD1D0060042E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E2E4B1B1DD5CD1D0060042E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E2E4B211DD5D1420060042E /* MoviesListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesListTableViewController.swift; sourceTree = "<group>"; };
+		2E2E4B461DD5F9FC0060042E /* AddMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMovieViewController.swift; sourceTree = "<group>"; };
+		2E42E9D51DD6158F00FDAE94 /* DismissSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				2E2E4B0D1DD5CD1D0060042E /* AppDelegate.swift */,
 				2E2E4B211DD5D1420060042E /* MoviesListTableViewController.swift */,
+				2E42E9D51DD6158F00FDAE94 /* DismissSegue.swift */,
 				2E2E4B0F1DD5CD1D0060042E /* HomeViewController.swift */,
 				2E2E4B131DD5CD1D0060042E /* Main.storyboard */,
+				2E2E4B461DD5F9FC0060042E /* AddMovieViewController.swift */,
 				2E2E4B161DD5CD1D0060042E /* Assets.xcassets */,
 				2E2E4B181DD5CD1D0060042E /* LaunchScreen.storyboard */,
 				2E2E4B1B1DD5CD1D0060042E /* Info.plist */,
@@ -141,8 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E2E4B0E1DD5CD1D0060042E /* AppDelegate.swift in Sources */,
+				2E42E9D61DD6158F00FDAE94 /* DismissSegue.swift in Sources */,
 				2E2E4B221DD5D1420060042E /* MoviesListTableViewController.swift in Sources */,
 				2E2E4B101DD5CD1D0060042E /* HomeViewController.swift in Sources */,
+				2E2E4B471DD5F9FC0060042E /* AddMovieViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +312,7 @@
 				2E2E4B201DD5CD1D0060042E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -73,7 +73,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mdc-mL-zE6" id="du0-dJ-8tI">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -85,12 +85,62 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Movies" id="ahk-vR-sn2">
                         <barButtonItem key="leftBarButtonItem" systemItem="edit" id="UlV-XY-BY4"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="IJM-op-FeY"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="IJM-op-FeY">
+                            <connections>
+                                <segue destination="occ-E9-CNR" kind="presentation" id="N24-zA-1Wx"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vye-Aj-Mec" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1688.8" y="366.56671664167919"/>
+            <point key="canvasLocation" x="1599" y="367"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="uZi-2C-Uzi">
+            <objects>
+                <navigationController id="occ-E9-CNR" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="g5k-Tu-hIT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="aRe-5T-I4B" kind="relationship" relationship="rootViewController" id="tHA-WQ-DcV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1u9-Tr-ZTh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2474" y="367"/>
+        </scene>
+        <!--Add Movie-->
+        <scene sceneID="J1h-YQ-2T3">
+            <objects>
+                <viewController id="aRe-5T-I4B" customClass="AddMovieViewController" customModule="Rewatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lbu-z5-oCq"/>
+                        <viewControllerLayoutGuide type="bottom" id="rfF-18-U95"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ItM-L6-Gx7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Add Movie" id="X8F-Pu-JZS">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="wQV-Wn-tDM">
+                            <connections>
+                                <segue destination="m2m-fS-GDs" kind="custom" customClass="DismissSegue" id="YYX-gT-iI7"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="D9B-wS-B4G">
+                            <connections>
+                                <action selector="save:" destination="aRe-5T-I4B" id="vHo-DG-f1x"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aWa-l4-mMb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3202" y="367"/>
         </scene>
         <!--Movies-->
         <scene sceneID="KFM-3l-48q">
@@ -116,4 +166,7 @@
         <image name="first" width="30" height="30"/>
         <image name="second" width="30" height="30"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="YYX-gT-iI7"/>
+    </inferredMetricsTieBreakers>
 </document>
