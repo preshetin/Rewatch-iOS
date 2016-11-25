@@ -11,17 +11,20 @@ import Foundation
 struct Movie {
     var title : String
     var type : String
+    var poster: String
 }
 
 extension Movie {
     init?(json: [String: Any]) {
         guard let title = json["Title"] as? String,
-            let type = json["Type"] as? String
+            let type = json["Type"] as? String,
+            let poster = json["Poster"] as? String
             else {
                 return nil
         }
         
         self.title = title
         self.type = type
+        self.poster = poster
     }
 }
