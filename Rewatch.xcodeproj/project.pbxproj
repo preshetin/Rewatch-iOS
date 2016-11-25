@@ -15,6 +15,8 @@
 		2E2E4B221DD5D1420060042E /* MoviesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2E4B211DD5D1420060042E /* MoviesListTableViewController.swift */; };
 		2E2E4B471DD5F9FC0060042E /* AddMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2E4B461DD5F9FC0060042E /* AddMovieViewController.swift */; };
 		2E42E9D61DD6158F00FDAE94 /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E42E9D51DD6158F00FDAE94 /* DismissSegue.swift */; };
+		2E7903561DE841BA009CADF7 /* MoviesCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7903551DE841BA009CADF7 /* MoviesCollection.swift */; };
+		2E7903581DE84448009CADF7 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7903571DE84448009CADF7 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		2E2E4B211DD5D1420060042E /* MoviesListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesListTableViewController.swift; sourceTree = "<group>"; };
 		2E2E4B461DD5F9FC0060042E /* AddMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMovieViewController.swift; sourceTree = "<group>"; };
 		2E42E9D51DD6158F00FDAE94 /* DismissSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissSegue.swift; sourceTree = "<group>"; };
+		2E7903551DE841BA009CADF7 /* MoviesCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesCollection.swift; sourceTree = "<group>"; };
+		2E7903571DE84448009CADF7 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				2E2E4B211DD5D1420060042E /* MoviesListTableViewController.swift */,
 				2E42E9D51DD6158F00FDAE94 /* DismissSegue.swift */,
 				2E2E4B0F1DD5CD1D0060042E /* HomeViewController.swift */,
+				2E7903571DE84448009CADF7 /* Movie.swift */,
+				2E7903551DE841BA009CADF7 /* MoviesCollection.swift */,
 				2E2E4B131DD5CD1D0060042E /* Main.storyboard */,
 				2E2E4B461DD5F9FC0060042E /* AddMovieViewController.swift */,
 				2E2E4B161DD5CD1D0060042E /* Assets.xcassets */,
@@ -146,10 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E7903581DE84448009CADF7 /* Movie.swift in Sources */,
 				2E2E4B0E1DD5CD1D0060042E /* AppDelegate.swift in Sources */,
 				2E42E9D61DD6158F00FDAE94 /* DismissSegue.swift in Sources */,
 				2E2E4B221DD5D1420060042E /* MoviesListTableViewController.swift in Sources */,
 				2E2E4B101DD5CD1D0060042E /* HomeViewController.swift in Sources */,
+				2E7903561DE841BA009CADF7 /* MoviesCollection.swift in Sources */,
 				2E2E4B471DD5F9FC0060042E /* AddMovieViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
